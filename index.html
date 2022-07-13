@@ -5,29 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link src = "style.css" rel = "stylesheet">
+    <link href = "style.css" rel = "stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="buttons">
-            <button class="button-top" id="clear">C</button>
-            <button class="button-top" id="backspace">Backspace</button>
-            <button class="button-top" id="divide">/</button>
-            <button class="button-top" id="multiply">*</button>
-            <button class="button" id="subtract">-</button>
-            <button class="button" id="add">+</button>
-            <button class="button" id="equals">=</button>
-            <button class="button-bottom" id="decimal">.</button>
-            <button class="button-bottom" id="0">0</button>
-            <button class="button-bottom" id="1">1</button>
-            <button class="button-bottom" id="2">2</button>
-            <button class="button-bottom" id="3">3</button>
-            <button class="button-mid" id="4">4</button>
-            <button class="button-mid" id="5">5</button>
-            <button class="button-mid" id="6">6</button>
-            <button class="button-mid" id="7">7</button>
+            <div class="screen">
+                <div class="previousOperand">123+</div>
+                <div class="currentOperand">456</div>
+            </div>
+            <div class="buttonTop">
+            <button class="button" id="allclear">AC</button>
+            <button class="buttonSide" id="backspace">Backspace</button>
+            <button class="button" id="divide">/</button>
+            </div>
+            <div class="buttonSecond">
+            <button class="button" id="7">7</button>
             <button class="button" id="8">8</button>
             <button class="button" id="9">9</button>
+            <button class="button" id="subtract">-</button>
+            </div>
+            <div class="buttonMid">
+            <button class="button" id="4">4</button>
+            <button class="button" id="5">5</button>
+            <button class="button" id="6">6</button>
+            <button class="button" id="add">+</button>
+            </div>
+            <div class="buttonBottom">
+            <button class="button" id="1">1</button>
+            <button class="button" id="2">2</button>
+            <button class="button" id="3">3</button>
+            <button class="button" id="multiply">*</button>
+            </div>
+            <div class="buttonLast">
+            <button class="button" id="decimal">.</button>
+            <button class="button" id="0">0</button>
+            <button class="buttonSide" id="equals">=</button>
+            </div>
         </div>
     </div>
 </body>

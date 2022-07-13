@@ -4,12 +4,60 @@
     padding: 0px;
     border: 0px;
 }
-container{
-    width: 300vw;
-    height: 600vh;
+.container{
+    width: 1200px;
+    height: 1200px;
     display: flex;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background : linear-gradient(to right, #5fc0c0, #b76abc);
+   
 }
 .buttons{
+    width: 400px;
+    height: 700px;
     display :flex;
     flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(115, 235, 239);
+    border-radius: 6.9px;
+}
+button{
+    border: 0px;
+    margin: 10px;
+    font-size : 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+}
+.buttonSide
+{
+    width : 120px;
+}
+.buttonTop, .buttonSecond, .buttonMid, .buttonLast , .buttonBottom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin : 10px;
+}
+.screen
+{
+    display: flex;
+    flex-direction: column;
+}
+.previousOperand,.currentOperand
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(42, 129, 196);
 }
